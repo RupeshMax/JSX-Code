@@ -3,7 +3,9 @@ import ReactDOM from "react-dom";
 
 ReactDOM.render(
   <div>
-    <h1>React App</h1>
+    <h1 className="heading" contentEditable="true" spellCheck="false">
+      React App
+    </h1>
     <ul>
       <li>list one</li>
       <li>list two</li>
