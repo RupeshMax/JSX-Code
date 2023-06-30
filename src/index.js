@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const img = "https://picsum.photos/200";
+
 ReactDOM.render(
   <div>
     <h1 className="heading" contentEditable="true" spellCheck="false">
       React App
     </h1>
-    <ul>
-      <li>list one</li>
-      <li>list two</li>
-      <li>list three</li>
-    </ul>
+    <img atr="random" src={img} />
   </div>,
   document.getElementById("root")
 );
